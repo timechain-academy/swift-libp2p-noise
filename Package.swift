@@ -22,10 +22,10 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-nio-extras.git", from: "1.0.0"),
         
         // LibP2P Core Modules
-        .package(url: "https://github.com/swift-libp2p/swift-libp2p.git", .upToNextMajor(from: "0.1.0")),
+        .package(url: "https://github.com/timechain-academy/swift-libp2p.git", .exact("main")),
         
         // Noise (Security Protocol)
-        .package(url: "https://github.com/swift-libp2p/swift-noise.git", .exact("main")),
+        .package(url: "https://github.com/timechain-academy/swift-noise.git", .exact("main")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
