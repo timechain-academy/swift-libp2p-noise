@@ -25,7 +25,7 @@ let package = Package(
         .package(url: "https://github.com/swift-libp2p/swift-libp2p.git", .upToNextMajor(from: "0.1.0")),
         
         // Noise (Security Protocol)
-        .package(url: "https://github.com/swift-libp2p/swift-noise.git", .upToNextMajor(from: "0.0.1")),
+        .package(url: "https://github.com/swift-libp2p/swift-noise.git", .exact("main")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
